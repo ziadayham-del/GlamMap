@@ -1,0 +1,46 @@
+```json id="o40v0l"
+[
+  {
+    "id": "BD001",
+    "name": "Full Beard",
+    "file": "full_beard.png",
+    "category": "Full/Heavy"
+  },
+  {
+    "id": "BD002",
+    "name": "Corporate Beard",
+    "file": "corporate_beard.png",
+    "category": "Short/Trimmed"
+  },
+  {
+    "id": "BD003",
+    "name": "Goatee",
+    "file": "goatee.png",
+    "category": "Chin Focused"
+  },
+  {
+    "id": "BD004",
+    "name": "Balbo",
+    "file": "balbo.png",
+    "category": "Partial"
+  },
+  {
+    "id": "BD005",
+    "name": "Van Dyke",
+    "file": "van_dyke.png",
+    "category": "Partial"
+  },
+  {
+    "id": "BD006",
+    "name": "Stubble",
+    "file": "stubble.png",
+    "category": "Short/Trimmed"
+  },
+  {
+    "id": "BD007",
+    "name": "Ducktail",
+    "file": "ducktail.png",
+    "category": "Full/Heavy"
+  }
+]
+```

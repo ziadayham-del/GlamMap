@@ -1,0 +1,112 @@
+{
+  "shapes": [
+    {
+      "id": "SH001",
+      "name": "Round",
+      "file": "round.png",
+      "aspect_ratio": 1.25,
+      "default_length": "Medium",
+      "category": "Natural",
+      "notes": "Soft edges"
+    },
+    {
+      "id": "SH002",
+      "name": "Oval",
+      "file": "oval.png",
+      "aspect_ratio": 1.40,
+      "default_length": "Medium",
+      "category": "Natural",
+      "notes": "Elegant"
+    },
+    {
+      "id": "SH003",
+      "name": "Square",
+      "file": "square.png",
+      "aspect_ratio": 1.10,
+      "default_length": "Short",
+      "category": "Classic",
+      "notes": "Flat tip"
+    },
+    {
+      "id": "SH004",
+      "name": "Squoval",
+      "file": "squoval.png",
+      "aspect_ratio": 1.15,
+      "default_length": "Short",
+      "category": "Hybrid",
+      "notes": "Square + oval"
+    },
+    {
+      "id": "SH005",
+      "name": "Almond",
+      "file": "almond.png",
+      "aspect_ratio": 1.55,
+      "default_length": "Long",
+      "category": "Premium",
+      "notes": "Tapered"
+    },
+    {
+      "id": "SH006",
+      "name": "Stiletto",
+      "file": "stiletto.png",
+      "aspect_ratio": 1.90,
+      "default_length": "Extra Long",
+      "category": "Bold",
+      "notes": "Sharp tip"
+    },
+    {
+      "id": "SH007",
+      "name": "Coffin",
+      "file": "coffin.png",
+      "aspect_ratio": 1.80,
+      "default_length": "Long",
+      "category": "Trend",
+      "notes": "Flat tapered"
+    },
+    {
+      "id": "SH008",
+      "name": "Lipstick",
+      "file": "lipstick.png",
+      "aspect_ratio": 1.55,
+      "default_length": "Medium",
+      "category": "Modern",
+      "notes": "Diagonal tip"
+    },
+    {
+      "id": "SH009",
+      "name": "Flare",
+      "file": "flare.png",
+      "aspect_ratio": 1.65,
+      "default_length": "Long",
+      "category": "Artistic",
+      "notes": "Wide tip"
+    },
+    {
+      "id": "SH010",
+      "name": "Edge",
+      "file": "edge.png",
+      "aspect_ratio": 1.75,
+      "default_length": "Long",
+      "category": "Sharp",
+      "notes": "Ridge center"
+    },
+    {
+      "id": "SH011",
+      "name": "Mountain Peak",
+      "file": "mountain_peak.png",
+      "aspect_ratio": 1.85,
+      "default_length": "Long",
+      "category": "Sharp",
+      "notes": "Pointed"
+    },
+    {
+      "id": "SH012",
+      "name": "Arrowhead",
+      "file": "arrowhead.png",
+      "aspect_ratio": 1.70,
+      "default_length": "Medium",
+      "category": "Modern",
+      "notes": "Angular"
+    }
+  ]
+}

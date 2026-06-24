@@ -1,0 +1,20 @@
+{
+  "art": [
+    {"id":"AR001","name":"French","file":"french.png","category":"Classic","complexity":"Low"},
+    {"id":"AR002","name":"Reverse French","file":"reverse_french.png","category":"Classic","complexity":"Medium"},
+    {"id":"AR003","name":"Minimalist","file":"minimalist.png","category":"Modern","complexity":"Low"},
+    {"id":"AR004","name":"Marble","file":"marble.png","category":"Luxury","complexity":"High"},
+    {"id":"AR005","name":"Aura","file":"aura.png","category":"Trend","complexity":"Medium"},
+    {"id":"AR006","name":"Ombre","file":"ombre.png","category":"Trend","complexity":"Medium"},
+    {"id":"AR007","name":"Gradient","file":"gradient.png","category":"Trend","complexity":"Medium"},
+    {"id":"AR008","name":"Airbrush","file":"airbrush.png","category":"Premium","complexity":"High"},
+    {"id":"AR009","name":"Watercolor","file":"watercolor.png","category":"Artistic","complexity":"High"},
+    {"id":"AR010","name":"Rhinestone","file":"rhinestone.png","category":"3D","complexity":"High"},
+    {"id":"AR011","name":"Pearl","file":"pearl.png","category":"Bridal","complexity":"High"},
+    {"id":"AR012","name":"Bow","file":"bow.png","category":"Cute","complexity":"Medium"},
+    {"id":"AR013","name":"Floral","file":"floral.png","category":"Seasonal","complexity":"Medium"},
+    {"id":"AR014","name":"Gold Foil","file":"gold_foil.png","category":"Luxury","complexity":"Medium"},
+    {"id":"AR015","name":"Arabic Pattern","file":"arabic_pattern.png","category":"Cultural","complexity":"High"},
+    {"id":"AR016","name":"Bridal Red","file":"bridal_red.png","category":"Bridal","complexity":"Medium"}
+  ]
+}

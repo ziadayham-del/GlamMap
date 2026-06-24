@@ -1,0 +1,16 @@
+{
+  "textures": [
+    {"id":"TX001","name":"Glossy","file":"glossy.png","reflectivity":"High","roughness":"Low","category":"Classic"},
+    {"id":"TX002","name":"Matte","file":"matte.png","reflectivity":"Low","roughness":"High","category":"Premium"},
+    {"id":"TX003","name":"Satin","file":"satin.png","reflectivity":"Medium","roughness":"Medium","category":"Soft"},
+    {"id":"TX004","name":"Metallic","file":"metallic.png","reflectivity":"High","roughness":"Low","category":"Luxury"},
+    {"id":"TX005","name":"Chrome","file":"chrome.png","reflectivity":"Very High","roughness":"Very Low","category":"Trend"},
+    {"id":"TX006","name":"Mirror","file":"mirror.png","reflectivity":"Extreme","roughness":"Very Low","category":"Premium"},
+    {"id":"TX007","name":"Pearlescent","file":"pearlescent.png","reflectivity":"Medium","roughness":"Low","category":"Bridal"},
+    {"id":"TX008","name":"Glitter","file":"glitter.png","reflectivity":"Sparkle","roughness":"Medium","category":"Party"},
+    {"id":"TX009","name":"Shimmer","file":"shimmer.png","reflectivity":"Medium","roughness":"Medium","category":"Glam"},
+    {"id":"TX010","name":"Velvet","file":"velvet.png","reflectivity":"Soft Glow","roughness":"Medium","category":"Luxury"},
+    {"id":"TX011","name":"Holographic","file":"holographic.png","reflectivity":"Rainbow","roughness":"Low","category":"Futuristic"},
+    {"id":"TX012","name":"Cat Eye","file":"cat_eye.png","reflectivity":"Magnetic","roughness":"Low","category":"Premium"}
+  ]
+}

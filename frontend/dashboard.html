@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Provider Dashboard</title>
+    <link rel="stylesheet" href="/css/dashboard.css">
+</head>
+<body>
+
+<h1>Provider Dashboard</h1>
+
+<div class="card">
+    <h2>Add Service</h2>
+
+    <input id="serviceName" placeholder="Service Name">
+    <input id="servicePrice" placeholder="Price">
+    <input id="serviceDuration" placeholder="Duration">
+
+    <button onclick="addService()">Add Service</button>
+</div>
+
+<div class="card">
+    <h2>Add Slot</h2>
+
+    <input id="slotDate" placeholder="Date">
+    <input id="slotTime" placeholder="Time">
+
+    <button onclick="addSlot()">Add Slot</button>
+</div>
+
+<div class="card">
+    <h2>Bookings</h2>
+    <div id="bookings"></div>
+</div>
+
+<script src="/js/crm.js"></script>
+
+</body>
+</html>

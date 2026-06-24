@@ -1,0 +1,235 @@
+/* ===================== BASE ===================== */
+body {
+    background-color: #FFF9F0;
+    color: #1A1A1A;
+}
+
+/* ===================== HERO FLOATING CARDS ===================== */
+.float-animation {
+    animation: float 6s ease-in-out infinite;
+}
+@keyframes float {
+    0% { transform: translateY(0px) rotate(-2deg); }
+    50% { transform: translateY(-15px) rotate(-1deg); }
+    100% { transform: translateY(0px) rotate(-2deg); }
+}
+.float-animation-delayed {
+    animation: floatDelayed 7s ease-in-out infinite;
+}
+@keyframes floatDelayed {
+    0% { transform: translateY(0px) rotate(3deg); }
+    50% { transform: translateY(-10px) rotate(4deg); }
+    100% { transform: translateY(0px) rotate(3deg); }
+}
+.hero-rotating-card {
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+}
+.hero-rotating-card.inactive { opacity: 0; pointer-events: none; transform: translateY(20px); }
+.hero-rotating-card.active { opacity: 1; pointer-events: auto; transform: translateY(0); }
+
+/* ===================== CARD HOVERS ===================== */
+.occasion-card:hover, .artist-card:hover {
+    border-color: #E85D3F;
+    background-color: #FFF0EA;
+    transform: translateY(-2px);
+}
+
+/* ===================== TABS ===================== */
+.tab-content {
+    display: none;
+    animation: fadeIn 0.4s ease-in-out;
+}
+.tab-content.active { display: block; }
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.tab-btn.active {
+    color: #E85D3F;
+    border-bottom: 2px solid #E85D3F;
+}
+
+/* ===================== MODALS ===================== */
+.modal-overlay { transition: opacity 0.3s ease; }
+.modal-content { transition: transform 0.3s ease, opacity 0.3s ease; }
+.modal-overlay.hidden-modal { opacity: 0; pointer-events: none; }
+.modal-overlay.hidden-modal .modal-content { transform: scale(0.95); opacity: 0; }
+
+/* ===================== HAMBURGER MENU (MOBILE NAV) ===================== */
+.hamburger {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+    width: 36px;
+    height: 36px;
+    padding: 6px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+}
+.hamburger span {
+    display: block;
+    width: 100%;
+    height: 2px;
+    background-color: #1A1A1A;
+    border-radius: 2px;
+    transition: transform 0.3s ease, opacity 0.3s ease;
+}
+.hamburger.open span:nth-child(1) {
+    transform: translateY(7px) rotate(45deg);
+}
+.hamburger.open span:nth-child(2) {
+    opacity: 0;
+}
+.hamburger.open span:nth-child(3) {
+    transform: translateY(-7px) rotate(-45deg);
+}
+
+.mobile-menu {
+    display: none;
+    flex-direction: column;
+    overflow: hidden;
+    background-color: #FFF9F0;
+    border-top: 1px solid rgba(0,0,0,0.06);
+    padding: 0 1rem;
+}
+.mobile-menu.open {
+    display: flex;
+    padding: 1rem 1rem 1.25rem;
+}
+.mobile-menu button {
+    text-align: left;
+    padding: 0.85rem 0.25rem;
+    font-weight: 500;
+    color: #1A1A1A;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    background: transparent;
+}
+.mobile-menu button:last-of-type { border-bottom: none; }
+.mobile-menu button:active { color: #E85D3F; }
+
+@media (min-width: 768px) {
+    .hamburger { display: none !important; }
+    .mobile-menu { display: none !important; }
+}
+@media (max-width: 767px) {
+    .hamburger { display: flex; }
+}
+
+/* ===================== LOCATION PULSE BUTTON ===================== */
+.loc-pulse {
+    position: relative;
+}
+.loc-pulse::after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 9999px;
+    border: 2px solid #8ADBD3;
+    animation: locPulse 2s ease-out infinite;
+}
+@keyframes locPulse {
+    0% { transform: scale(1); opacity: 0.9; }
+    100% { transform: scale(1.18); opacity: 0; }
+}
+.loc-pulse.located::after { animation: none; border: none; }
+
+/* ===================== AI STYLE FINDER ===================== */
+.sf-gender-btn.selected {
+    border-color: #E85D3F;
+    background-color: #FFF0EA;
+}
+.sf-option-card {
+    border: 2px solid #E5E7EB;
+    border-radius: 0.75rem;
+    padding: 1rem 0.75rem;
+    text-align: center;
+    cursor: pointer;
+    transition: border-color 0.2s ease, background-color 0.2s ease, transform 0.15s ease;
+    background: #fff;
+}
+.sf-option-card:hover {
+    border-color: #E85D3F;
+    background-color: #FFF0EA;
+    transform: translateY(-2px);
+}
+.sf-option-card .sf-opt-emoji {
+    font-size: 1.75rem;
+    display: block;
+    margin-bottom: 0.4rem;
+}
+.sf-option-card .sf-opt-label {
+    font-weight: 600;
+    font-size: 0.85rem;
+    color: #1A1A1A;
+}
+
+#sf-canvas {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: #F3F4F6;
+}
+
+.sf-variant-thumb {
+    flex-shrink: 0;
+    width: 56px;
+    height: 56px;
+    border-radius: 0.6rem;
+    border: 2px solid transparent;
+    cursor: pointer;
+    overflow: hidden;
+    background: #F3F4F6;
+}
+.sf-variant-thumb.active {
+    border-color: #E85D3F;
+}
+.sf-variant-thumb canvas, .sf-variant-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sf-tag {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.78rem;
+    font-weight: 600;
+    padding: 0.4rem 0.7rem;
+    border-radius: 0.5rem;
+    background: #fff;
+    border: 1px solid #E5E7EB;
+    color: #374151;
+}
+.sf-tag svg { width: 14px; height: 14px; color: #1F7A5C; flex-shrink: 0; }
+
+/* ===================== RUSH / NEARBY CARD HELPERS ===================== */
+.distance-pill {
+    font-family: ui-monospace, 'SFMono-Regular', Menlo, monospace;
+    font-size: 0.72rem;
+    font-weight: 700;
+    background: #C7EAE5;
+    color: #1A1A1A;
+    padding: 0.2rem 0.5rem;
+    border-radius: 0.4rem;
+    white-space: nowrap;
+}
+
+/* ===================== TOAST ===================== */
+#toast { max-width: calc(100vw - 2.5rem); }
+
+/* ===================== GENERAL MOBILE FIXES ===================== */
+@media (max-width: 480px) {
+    .modal-content { margin: 0 0.5rem; }
+}
+
+/* Respect reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+        animation-duration: 0.001ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.001ms !important;
+    }
+}

@@ -1,0 +1,64 @@
+```json id="qf2x2w"
+[
+  {
+    "id": "MH001",
+    "name": "Buzz Cut",
+    "file": "buzz_cut.png",
+    "category": "Short"
+  },
+  {
+    "id": "MH002",
+    "name": "Crew Cut",
+    "file": "crew_cut.png",
+    "category": "Short"
+  },
+  {
+    "id": "MH003",
+    "name": "Side Part",
+    "file": "side_part.png",
+    "category": "Professional"
+  },
+  {
+    "id": "MH004",
+    "name": "Pompadour",
+    "file": "pompadour.png",
+    "category": "Volume"
+  },
+  {
+    "id": "MH005",
+    "name": "Quiff",
+    "file": "quiff.png",
+    "category": "Volume"
+  },
+  {
+    "id": "MH006",
+    "name": "Fade",
+    "file": "fade.png",
+    "category": "Fade"
+  },
+  {
+    "id": "MH007",
+    "name": "French Crop",
+    "file": "french_crop.png",
+    "category": "Crop"
+  },
+  {
+    "id": "MH008",
+    "name": "Curtains",
+    "file": "curtains.png",
+    "category": "Medium"
+  },
+  {
+    "id": "MH009",
+    "name": "Man Bun",
+    "file": "man_bun.png",
+    "category": "Long"
+  },
+  {
+    "id": "MH010",
+    "name": "Curly Fade",
+    "file": "curly_fade.png",
+    "category": "Curly"
+  }
+]
+```

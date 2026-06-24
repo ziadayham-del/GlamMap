@@ -1,0 +1,64 @@
+```json id="2tyn4w"
+[
+  {
+    "id": "FH001",
+    "name": "Pixie Cut",
+    "file": "pixie_cut.png",
+    "category": "Short"
+  },
+  {
+    "id": "FH002",
+    "name": "Classic Bob",
+    "file": "classic_bob.png",
+    "category": "Bob"
+  },
+  {
+    "id": "FH003",
+    "name": "Lob",
+    "file": "lob.png",
+    "category": "Bob"
+  },
+  {
+    "id": "FH004",
+    "name": "Butterfly Cut",
+    "file": "butterfly_cut.png",
+    "category": "Layered"
+  },
+  {
+    "id": "FH005",
+    "name": "Layered Long Hair",
+    "file": "layered_long_hair.png",
+    "category": "Long"
+  },
+  {
+    "id": "FH006",
+    "name": "Curtain Bangs",
+    "file": "curtain_bangs.png",
+    "category": "Bangs"
+  },
+  {
+    "id": "FH007",
+    "name": "Loose Waves",
+    "file": "loose_waves.png",
+    "category": "Wavy"
+  },
+  {
+    "id": "FH008",
+    "name": "High Ponytail",
+    "file": "high_ponytail.png",
+    "category": "Ponytail"
+  },
+  {
+    "id": "FH009",
+    "name": "Messy Bun",
+    "file": "messy_bun.png",
+    "category": "Bun"
+  },
+  {
+    "id": "FH010",
+    "name": "Bridal Updo",
+    "file": "bridal_updo.png",
+    "category": "Bridal"
+  }
+]
+```

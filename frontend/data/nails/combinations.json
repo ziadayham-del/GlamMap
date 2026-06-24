@@ -1,0 +1,44 @@
+{
+  "combinations": [
+    {
+      "id": "C001",
+      "shape": "Almond",
+      "texture": "Glossy",
+      "art": "French",
+      "color": "Nude Pink",
+      "preview_name": "almond_glossy_french_nude"
+    },
+    {
+      "id": "C002",
+      "shape": "Coffin",
+      "texture": "Chrome",
+      "art": "Aura",
+      "color": "Silver",
+      "preview_name": "coffin_chrome_aura_silver"
+    },
+    {
+      "id": "C003",
+      "shape": "Square",
+      "texture": "Matte",
+      "art": "Marble",
+      "color": "Black",
+      "preview_name": "square_matte_marble_black"
+    },
+    {
+      "id": "C004",
+      "shape": "Oval",
+      "texture": "Glossy",
+      "art": "Floral",
+      "color": "Peach",
+      "preview_name": "oval_glossy_floral_peach"
+    },
+    {
+      "id": "C005",
+      "shape": "Stiletto",
+      "texture": "Velvet",
+      "art": "Rhinestone",
+      "color": "Red",
+      "preview_name": "stiletto_velvet_rhinestone_red"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GlamMap — Partner Registration</title>
+    <link rel="stylesheet" href="/css/provider.css">
+</head>
+<body>
+
+    <div class="registration-container">
+        <div class="badge">
+            <span class="dot"></span> LIVE ACROSS 14 MUMBAI NEIGHBOURHOODS
+        </div>
+
+        <h1>Grow your business.<br><span>Join the GlamMap network.</span></h1>
+        <p class="subtitle">Become a verified partner and connect with thousands of clients looking for your exact style expertise.</p>
+
+        <form id="providerForm" class="form-card">
+            <div class="form-grid">
+                <div class="form-group field-full">
+                    <label for="providerType">I am registering as a:</label>
+                    <select id="providerType">
+                        <option value="salon">Salon / Studio Space</option>
+                        <option value="freelancer">Independent Freelancer</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="businessName">Business / Brand Name</label>
+                    <input type="text" id="business_name" placeholder="e.g., Haircraft Studio" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="ownerName">Owner / Representative Name</label>
+                    <input type="text" id="owner_name" placeholder="e.g., Rahul Sharma" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Business Email</label>
+                    <input type="email" id="email" placeholder="name@example.com" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="phone">Phone Number</label>
+                    <input type="tel" id="phone" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="password">Account Password</label>
+                    <input type="password" id="password" placeholder="••••••••" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="city">City</label>
+                    <input type="text" id="city" placeholder="Mumbai" value="Mumbai" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="area">Neighborhood / Area</label>
+                    <input type="text" id="area" placeholder="e.g., Andheri West" required>
+                </div>
+
+                <div class="form-group field-full">
+                    <label for="address">Full Studio Address</label>
+                    <input type="text" id="address" placeholder="Shop number, Building name, Street info" required>
+                </div>
+            </div>
+
+            <button type="submit" id="registerBtn">Register as Partner &rarr;</button>
+        </form>
+    </div>
+
+    <script src="/js/provider.js"></script>
+</body>
+</html>
